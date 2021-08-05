@@ -3,7 +3,7 @@
 The father of all github awesome pages. Contains links to anything and everything intresting.
 https://github.com/sindresorhus/awesome
 
-*###  Awesome Windows*
+* ###  Awesome Windows*
 List contains tips and tools for making windows awesome!
 https://github.com/Awesome-Windows/Awesome
 
