@@ -18,3 +18,7 @@ https://github.com/academic/awesome-datascience
 ## WebDev resources
 A yet unexplored awesome resource( I think :P)
 https://github.com/lauragift21/awesome-learning-resources
+
+## Electronics Resources
+Contains a lot of usefull stuff!
+https://github.com/offjangir/Awesome-Electronincs-Reading-Material
