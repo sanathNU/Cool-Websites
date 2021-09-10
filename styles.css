@@ -1,4 +1,7 @@
 /* Style the top navigation bar */
+.header h1 {
+  font-size: 50px;
+}
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -17,7 +20,9 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+  * {
+    box-sizing: border-box;
+  } 
   /* Change color on hover */
   .topnav a:hover {
     background-color: #ddd;
@@ -27,9 +32,42 @@
 .link_stuff{
     text-align:center;
 }
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
 
 body {
-    text-align:center;
-    color: white;
-    background-image: url('back.jpg');  
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  background-image: url('back.jpg') ;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.pink{
+    background-color:red;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  background-image: url('back2.jpg') ;
 }
