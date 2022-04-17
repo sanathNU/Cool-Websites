@@ -1,16 +1,23 @@
-/* Style the top navigation bar */
-.header h1 {
-  font-size: 50px;
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
+
+/* Style the top navigation bar */
 .topnav {
     overflow: hidden;
     background-color: #333;
+    margin-top: 5px;
   }
   img {
     width: 100%;
     height: 100%;
     object-fit: contain;
   }
+
   /* Style the topnav links */
   .topnav a {
     float: left;
@@ -29,31 +36,29 @@
     color: black;
   }
 
-.link_stuff{
+.link{
     text-align:center;
+    text-decoration: none;
+    color: #50424e;
 }
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
+
 
 /*Remove colour, underline and for links(cards)*/
 .row a{
   text-decoration: none;
   color: black;
+  margin-left: 10%;
+  margin-right:10%;
 }
-
-
- 
 
 /* Add a card effect for articles */
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+  border-radius: 25px;
+  /* text-align: center; */
+
 }
 
 /*Shadows on hover*/
@@ -63,29 +68,67 @@
   transform: scale(1.002,1.002);
 }
 
-
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #f1f1f1;
-}
 /* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
   background: white;
-  background-image: url('back.jpg') ;
+  border-radius: 20px;
+  background-image: url('images/back.jpg') ;
+  background-repeat: no-repeat;
+  background-size: 200% 200%;
   font-family: 'Brush Script MT', cursive;
+}
+.header h1 {
+  font-size: 50px;
+}
+/* This is for that single intro block */
+.Intro h1{
+  font-family: "papyrus",fantasy;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #c3bdbd;
 }
 
 .pink{
     background-color:red;
 }
+
+.content-inside-box{
+  border-style:inherit;
+  padding: 10px;
+  text-align: center;
+  position:relative ;
+  border-radius: 25px;
+  max-width: 1500px;
+  margin: 1em auto;
+  background-color: rgba(238, 232, 232, 0.577);
+}
+/* This is for that simple inline display */
 /* Footer */
 .footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
+  border-radius: 25px;
   margin-top: 20px;
-  background-image: url('back2.jpg') ;
+  background-image: url('images/back2.jpg') ;
+  background-size: 200% 200%;
+}
+/* A new box for the contact me part */
+.contact_box {
+  text-align: center;
+  /* padding-block: 2px; */
+  border-radius: 25px;
+  max-width: 2500px;
+  /* margin: 1em; */
+  /* color: rgb(30, 28, 28);  */
+  }
+.contact_box li{
+  display:inline;
+  list-style: none;
+  padding: 5px;
 }
