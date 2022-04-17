@@ -74,7 +74,7 @@
   text-align: center;
   background: white;
   border-radius: 20px;
-  background-image: url('images/back.jpg') ;
+  background-image: url("images/back.jpg") ;
   background-repeat: no-repeat;
   background-size: 200% 200%;
   font-family: 'Brush Script MT', cursive;
@@ -115,7 +115,7 @@ body {
   background: #ddd;
   border-radius: 25px;
   margin-top: 20px;
-  background-image: url('images/back2.jpg') ;
+  background-image: url("images/back2.jpg") ;
   background-size: 200% 200%;
 }
 /* A new box for the contact me part */
